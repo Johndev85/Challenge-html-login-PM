@@ -5,7 +5,7 @@
 
 :root {
     --colorLabel: #265135;
-    --colorBtn:#3f7940;
+    --colorBtn:#95ca3e;
     --colorBtnShadow: #408E42;
 }
 
@@ -43,7 +43,11 @@ header {
     padding: 15px;
 }
 
-h1 {
+.header-top img {
+    width: 90px;
+}
+
+.header-top h1 {
     color: white;
 }
 
@@ -96,6 +100,7 @@ button {
 
 button:hover {
   box-shadow: 0 0 10px var(--colorBtnShadow);
+  transition: .8;
 }
 
 span {
